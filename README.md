@@ -1,73 +1,82 @@
-# Saleor Storefront
 
-![1 copy 2x](https://user-images.githubusercontent.com/5421321/47798207-30aeea00-dd28-11e8-9398-3d8426836a83.png)
+<h6 align="center">
+  <br>
+  <a href="https://plant.tiepz.com"><img src="https://plant.tiepz.com/assets/logo/spotted-logo-green.png" alt="tiepz plant" width="200"></a>
+  <br>
+</h6>
 
-_**Note:** This project is beta quality. We don't advise using it in production._
+<h4 align="center"><a href="https://plant.tiepz.com"><strong>tiepz plant</strong></a> là trang cá nhân xây dựng quanh chủ đề cây cỏ thức ăn cho thỏ đầy dinh dưỡng <a href="https://plant.tiepz.com/blog">ghi chép về các loại cây thỏ ưa chuộng</a> và <a href="https://plant.tiepz.com/">danh mục cây cỏ của thỏ</a>.</h4>
 
-A GraphQL-powered, PWA, single-page application storefront for [Saleor](https://github.com/mirumee/saleor/).
+<p align="center">
+  <img src="https://img.shields.io/badge/chrome-passing-brightgreen.svg">
+  <img src="https://img.shields.io/badge/chrome%20mobile-passing-brightgreen.svg">
+  <img src="https://img.shields.io/badge/safari-passing-brightgreen.svg">
+  <img src="https://img.shields.io/badge/safari%20mobile-passing-brightgreen.svg">
+  <br>
+  <img src="https://img.shields.io/badge/internet%20explorer-passing-red.svg">
+  <img src="https://img.shields.io/badge/firefox-passing-brightgreen.svg">
+  <img src="https://img.shields.io/badge/firefox%20mobile-passing-brightgreen.svg">
+  <img src="https://img.shields.io/badge/edge-passing-red.svg">
+  <img src="https://img.shields.io/badge/opera-passing-brightgreen.svg">
+</p>
 
-## Features
-- Headless ecommerce storefront built with [GraphQL](https://graphql.org/), [Apollo Client](https://www.apollographql.com/client), [React](https://reactjs.org/) and [Typescript](https://www.typescriptlang.org/)
-- Offline mode (beta)
-- Saleor GraphQL API integration
-- Single-page application experience
-- [Braintree Payment Gateway](https://www.braintreepayments.com/) integration
+<p align="center">
+  <a href="#description">Description</a> •
+  <a href="#key-features">Key Features</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#changelog">Changelog</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#authors">Authors</a> •
+  <a href="#license">License</a>
+</p>
 
-## Demo
+![webpage screenshot](https://github.com/tiepz-studio/plant/blob/master/tiepz_screen.png?raw=true)
 
-See the [public demo](http://pwa.getsaleor.com) of Saleor Storefront!
+## Description
 
-Or launch the demo on a free Heroku instance. Note that you have to set the `BACKEND_URL` environment to point to the Saleor instance.
+tiepz plant is a personal project created by [Phạm Xuân Tiếp](https://tiepz.com) Hệ thống trang web chuyên về cây cỏ dành cho thỏ do Tiepz Studio phát triển được bảo trợ nguồn vốn và kinh phí duy trì từ shop tiepz.com 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+Website này ra đời do tôi, Phạm Xuân Tiếp, muốn thực sự có được những thỏ con và thỏ khoẻ mạnh nên sẽ cố tìm ra loại cây phù hợp với điều kiện ở tỉnh Thái Bình, trồng và phát triển tốt, để làm thức ăn dinh dưỡng cho thỏ ăn, tôi hy vọng những con thỏ trở lên khoẻ mạnh, không bệnh tật, mỗi khi tôi nuôi con gì, tôi đều muốn chúng có những điều kiện tốt nhất để phát triển, và nhờ sự ủng hộ mạnh mẽ của vợ tôi Ngô Thu Thủy, website này đã ra đời từ đam mê. 
 
-## Getting Started
+## Key Features
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+- Catalog of plants, including facts and images about them
+- A blog featuring plant inspiration and other "tiepz plant" greenery
+- Fully responsive
+- Crafted design to evoke the atmosphere of a classic almanac
+- Hand-painted watercolor illustrations
+- Built from markdown files using Jekyll
 
-### Prerequisites
+## Contributing
 
-- Node.js 10.0+ 
-- A running instance of Saleor.
+If you notice a bug while viewing the webpage or have a feature request, please [submit an issue](https://github.com/tiepz-studio/plant/issues).
+If you would like to add a plant to the catalog, or create a blog post, [follow the guide to do so](https://github.com/tiepz-studio/plant/wiki).
+We are not currently looking for contributions to the development of the site.
 
-    To run the storefront, you have to set the `BACKEND_URL` environment to point to the Saleor instance. If you are running Saleor locally with the default settings, set `BACKEND_URL` to: `http://localhost:8000/`.
+- [Catalog Post Tutorial](https://github.com/tiepz-studio/plant/wiki/Catalog-Post-Tutorial)
+- [Blog Post Tutorial](https://github.com/tiepz-studio/plant/wiki/Blog-Post-Tutorial)
 
-### Installing
+## Changelog
 
-Clone the repository:
+For an up-to-date copy of the changelog, see [CHANGELOG.md](https://github.com/tiepz-studio/plant/blob/master/CHANGELOG.md).
 
-```
-git clone git@github.com:mirumee/saleor-storefront.git
-```
+## Credits
 
-Enter the project directory:
+- [Jekyll Now](https://github.com/barryclark/jekyll-now/) - Forked orginally from Barry Clark's template.
+- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
+- [Joel Glovier](http://joelglovier.com/writing/) - Used Joel's feed.xml in this repository.
+- [Markdownify](https://github.com/amitmerchant1990/electron-markdownify) - Used as refrence when creating the README.md
 
-```
-cd saleor-storefront
-```
+## Authors
 
-Install NPM dependencies:
-
-```
-npm i
-```
-
-Run the development server:
-
-```
-npm start
-```
-
-Go to `http://localhost:3000` to access the storefront.
-
-
-**Note:** Offline mode doesn't currently work on the development server (run with `npm start`), which is a known issue in [sw-precache-webpack-plugin](https://github.com/goldhand/sw-precache-webpack-plugin#webpack-dev-server-support) and will be fixed in future releases.
-
+[**Phạm Xuân Tiếp**](https://tiepz.com) - Programming, designing, and maintaining. updater and sponsored.
 
 ## License
 
-This project is licensed under the BSD-3-Clause License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/tiepz-studio/plant/blob/master/LICENSE) file for details. 
 
+> NOTE: please dont make an copy of this work.
 
-#### Crafted with ❤️ by [Mirumee Software](http://mirumee.com)
-hello@mirumee.com
+<br><br>
+<h6 align="center"><i>Thank you for reading</i>
+<br><br><img src="https://raw.githubusercontent.com/tiepz-studio/plant/master/favicon.ico" width=18></h6>
