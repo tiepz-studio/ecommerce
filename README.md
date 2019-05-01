@@ -30,7 +30,7 @@
   <a href="#license">License</a>
 </p>
 
-![webpage screenshot](https://github.com/tiepz-studio/plant/blob/master/tiepz_screen.png?raw=true)
+![webpage screenshot](https://github.com/tiepz-studio/ecommerce/blob/master/screenshot.png?raw=true)
 
 ## Description
 
